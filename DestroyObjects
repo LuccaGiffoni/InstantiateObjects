@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class CloseModel : MonoBehaviour
+{
+    // Creating a GameObject
+    public GameObject model
+    
+    // Function to destroy/close GameObjects
+    public void Destroy()
+    {
+        // Using property .Find to look for your instantiated GameObject called "Model".
+        // It's important to remember that when you instantiate a GameObject based on a prefab it'll never
+        // comes with the same name, it'll always be "______(Clone)" as seen right below
+        
+        model = GameObject.Find("Model(Clone)");
+        Destroy(model);
+    }
+}
