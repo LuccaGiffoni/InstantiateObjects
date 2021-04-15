@@ -8,4 +8,4 @@ It's really simple to use it. Just follow the steps:
 3. On the component, drag the prefab you want to instantiate;
 4. That's it!
 
-P.S: I highly reccomend you to put some "destroy button" to your prefab, so you can click that button and delete the prefab.
+P.S: I highly reccomend you to put some "destroy button" to your prefab, so you can click that button and delete the prefab - this code example is avaible on this repositorie on Main Branch, named "DestroyObjects" or you can go to it through the link: https://github.com/LuccaGiffoni/InstantiateObjects/blob/main/DestroyObjects
